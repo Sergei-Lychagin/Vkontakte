@@ -1,6 +1,7 @@
 package ru.netology.domain;
 
 import java.time.Instant;
+
 import lombok.Data;
 
 
@@ -20,8 +21,6 @@ public class WallPost {
     private boolean isBookmarked;
     private boolean isMarkedAsAd;
 
-    private boolean canLike;
-    private boolean canShare;
     private boolean canPin;
     private boolean canEdit;
 

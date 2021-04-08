@@ -8,4 +8,6 @@ public class LikesInfo {
 
     private long counter;
     private boolean userLiked;
+    private boolean canLike;
+    private boolean canShare;
 }
